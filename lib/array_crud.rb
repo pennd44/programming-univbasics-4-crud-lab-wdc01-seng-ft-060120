@@ -1,10 +1,9 @@
 def create_an_empty_array
   []
 end
-myarray = ["eggman soup", "pool", "blap", "tea"]
 
 def create_an_array
-  myarray = ["eggman soup", "pool", "blap", "tea"]
+  array = ["eggman soup", "pool", "blap", "tea"]
 end
 
 def add_element_to_end_of_array(array, element)
