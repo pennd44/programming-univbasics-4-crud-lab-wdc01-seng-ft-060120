@@ -28,13 +28,13 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  ["eggman soup", "pool", "blap", "tea"][0]
+  #{array}[0]
 end
 
 def retrieve_last_element_from_array(array)
-  ["eggman soup", "pool", "blap", "tea"][-1]
+  #{array}[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-["eggman soup", "pool", "blap", "tea"][3]="more pool"
+  #{array}[#{index_number}]] = "#{elelment}"
 end
